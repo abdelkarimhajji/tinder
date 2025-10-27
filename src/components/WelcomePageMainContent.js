@@ -5,7 +5,7 @@ function MainContent()
             <div className='text-white '>
                 <p className='text-[12rem] font-bold'>Swipe Right<span className="font-light">®</span></p>
             </div>
-            <div className='text-white font-bold w-44 h-12 text-lg bg-wel-gradient-but cursor-pointer hover:text-black  transition-colors duration-300 flex items-center justify-center rounded-xl'>
+            <div className='text-white font-bold w-44 h-12 text-lg bg-wel-gradient-but cursor-pointer hover:text-black  transition-colors duration-300 flex items-center justify-center rounded-3xl'>
                 create account
             </div>
         </div>

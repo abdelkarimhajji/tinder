@@ -18,7 +18,7 @@ function    Load()
         }
     }, [])
     return(
-        <div className="w-screen h-screen absolute flex justify-center items-center bg-wel-gradient z-[3]" style={{display: display ? "flex" : "none" }}>
+        <div className="w-[100%] h-screen absolute flex justify-center items-center bg-wel-gradient z-[3]" style={{display: display ? "flex" : "none" }}>
             <SiTinder className="text-7xl text-white animate-growMove" />
         </div>
     );

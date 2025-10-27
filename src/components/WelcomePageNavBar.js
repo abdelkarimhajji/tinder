@@ -5,10 +5,11 @@ function    NavBar()
 {
     return(
         <>
-        <div className='fixed flex w-screen z-[1] p-4'>
+        <div className='fixed flex w-[100%] z-[1] p-4 '>
+        
             {/* start left  part of navbar */}
-            <div className="flex w-[200px] cursor-pointer">
-                <div className="flex items-end">
+            <div className="flex w-[200px] cursor-pointer px-1">
+                <div className="flex items-end w-[40px]">
                     <img src={logo} alt='Tinder' className='w-10 h-10'/>
                 </div>
                 <div className="flex items-center content-center">
@@ -19,11 +20,11 @@ function    NavBar()
 
             {/* start middle part of navbar */}
             <div className='flex justify-around cursor-pointer items-center text-white font-bold underline underline-offset-[6px] gap-0 text-xl w-[500px]'>
-                <div>Products</div>
-                <div>Learn</div>
-                <div>Safety</div>
-                <div>Support</div>
-                <div>Download</div>
+                <div className="ml-3">Products</div>
+                <div className="ml-3">Learn</div>
+                <div className="ml-3">Safety</div>
+                <div className="ml-3">Support</div>
+                <div className="ml-3">Download</div>
             </div>
             {/* end middle part of navbar */}
 
@@ -33,7 +34,7 @@ function    NavBar()
                     <BsTranslate className='mt-0.5 font-bold text-lg'/>
                     <p className='font-bold text-lg cursor-pointer' >Language</p>
                 </div>
-                <div className='bg-white hover:bg-gray-200 transition-colors duration-300 cursor-pointer text-black font-bold text-lg w-28 h-10 flex items-center justify-center rounded-2xl'>
+                <div className='bg-white hover:bg-gray-200 transition-colors duration-300 cursor-pointer text-black font-bold text-lg w-28 h-10 flex items-center justify-center rounded-3xl'>
                     <p>Log in</p>
                 </div>
             </div>
