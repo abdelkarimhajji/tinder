@@ -19,12 +19,12 @@ function    NavBar()
             {/* end left part of navbar */}
 
             {/* start middle part of navbar */}
-            <div className='flex justify-around cursor-pointer items-center text-white font-bold underline underline-offset-[6px] gap-0 text-xl w-[500px]'>
-                <div className="ml-3">Products</div>
-                <div className="ml-3">Learn</div>
-                <div className="ml-3">Safety</div>
-                <div className="ml-3">Support</div>
-                <div className="ml-3">Download</div>
+            <div className='flex justify-around cursor-pointer items-center text-white font-bold underline underline-offset-[6px] gap-5 ml-5 text-xl w-[650px]'>
+                <div className="shadow-hover hover:bg-white hover:text-black px-3.5 py-1.5 rounded-3xl">Products</div>
+                <div className="shadow-hover  hover:bg-white hover:text-black px-3.5 py-1.5 rounded-3xl">Learn</div>
+                <div className="shadow-hover  hover:bg-white hover:text-black px-3.5 py-1.5 rounded-3xl">Safety</div>
+                <div className="shadow-hover  hover:bg-white hover:text-black px-3.5 py-1.5 rounded-3xl">Support</div>
+                <div className="shadow-hover  hover:bg-white hover:text-black px-3.5 py-1.5 rounded-3xl">Download</div>
             </div>
             {/* end middle part of navbar */}
 

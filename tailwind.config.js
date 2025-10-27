@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        'white-lg': 'rgba(255, 255, 255, 0.15) 0px 48px 100px 0px',
+      },
       zIndex:{
         '-1' : -100,
       },
