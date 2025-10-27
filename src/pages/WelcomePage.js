@@ -1,6 +1,7 @@
 import { WelcomeLayout } from '../Layouts.js/ContainerLayout.js'
-import NavBar from '../components/NavBar';
+import NavBar from '../components/WelcomePageNavBar.js';
 import Load from '../components/Load.js';
+import MainContent from '../components/WelcomePageMainContent.js'
 
 function WelcomePage()
 {
@@ -8,6 +9,7 @@ function WelcomePage()
         <WelcomeLayout>
             <Load />
             <NavBar />
+            <MainContent />
         </WelcomeLayout>
     );
 }
