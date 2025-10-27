@@ -19,18 +19,18 @@ function    NavBar()
             {/* end left part of navbar */}
 
             {/* start middle part of navbar */}
-            <div className='flex justify-around cursor-pointer items-center text-white font-bold underline underline-offset-[6px] gap-5 ml-5 text-xl w-[650px]'>
-                <div className="shadow-hover hover:bg-white hover:text-black px-3.5 py-1.5 rounded-3xl">Products</div>
-                <div className="shadow-hover  hover:bg-white hover:text-black px-3.5 py-1.5 rounded-3xl">Learn</div>
-                <div className="shadow-hover  hover:bg-white hover:text-black px-3.5 py-1.5 rounded-3xl">Safety</div>
-                <div className="shadow-hover  hover:bg-white hover:text-black px-3.5 py-1.5 rounded-3xl">Support</div>
-                <div className="shadow-hover  hover:bg-white hover:text-black px-3.5 py-1.5 rounded-3xl">Download</div>
+            <div className='flex justify-around cursor-pointer items-center  text-white font-bold underline underline-offset-[6px] gap-3 lg:gap-5 ml-5 text-lg lg:text-xl w-[650px]'>
+                <div className="shadow-hover  hover:bg-white hover:text-black px-2.5 py-1 lg:px-3.5 lg:py-1.5 rounded-3xl">Products</div>
+                <div className="shadow-hover  hover:bg-white hover:text-black px-2.5 py-1 lg:px-3.5 lg:py-1.5 rounded-3xl">Learn</div>
+                <div className="shadow-hover  hover:bg-white hover:text-black px-2.5 py-1 lg:px-3.5 lg:py-1.5 rounded-3xl">Safety</div>
+                <div className="shadow-hover  hover:bg-white hover:text-black px-2.5 py-1 lg:px-3.5 lg:py-1.5 rounded-3xl">Support</div>
+                <div className="shadow-hover  hover:bg-white hover:text-black px-2.5 py-1 lg:px-3.5 lg:py-1.5 rounded-3xl">Download</div>
             </div>
             {/* end middle part of navbar */}
 
             {/* start right part of navbar */}
             <div className='flex items-center justify-end text-white w-[75%] gap-8'>
-                <div className='flex  gap-1' >
+                <div className='flex  gap-1'>
                     <BsTranslate className='mt-0.5 font-bold text-lg'/>
                     <p className='font-bold text-lg cursor-pointer' >Language</p>
                 </div>
