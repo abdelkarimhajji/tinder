@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       screens: {
         '960': '960px',
+        '2300': '2300px',
       },
       boxShadow: {
         'white-lg': 'rgba(255, 255, 255, 0.15) 0px 48px 100px 0px',
