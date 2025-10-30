@@ -3,6 +3,15 @@ import { useState, useEffect } from "react";
 function    Load()
 {
     const [display, setDisplay] = useState(true);
+     useEffect(() => {
+        if (display) 
+            document.body.style.overflow = "hidden";
+        else 
+            document.body.style.overflow = "auto";
+
+    }, [display]);
+
+    
     useEffect(() =>
     {
         const handleLoad = () => {

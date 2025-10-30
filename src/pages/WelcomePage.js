@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { WelcomeLayout } from '../Layouts.js/ContainerLayout.js'
 import NavBar from '../components/WelcomePageNavBar.js'
 import Load from '../components/Load.js';
@@ -6,6 +7,7 @@ import Footer from '../components/WelcomePageFooter.js'
 
 function WelcomePage()
 {
+   
     return (
         <WelcomeLayout>
             <Load />

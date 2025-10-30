@@ -1,10 +1,8 @@
 export function    WelcomeLayout({children})
 {
     return (
-        <div className="">
-            <div className="">
-                {children}
-            </div>
+        <div className="r-scrool">
+            {children}
         </div>
     );
 }

@@ -2,19 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  overflow: auto;
-}
-
-/* For Chrome, Edge, Safari */
-body::-webkit-scrollbar {
-  display: none;
-}
-
-/* For Firefox */
-body {
-  scrollbar-width: none;
-}
 
 .App {
   text-align: center;

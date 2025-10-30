@@ -1,8 +1,7 @@
 import  logo from '../assets/images/tinder.png'
 import { BsTranslate } from "react-icons/bs";
-import { IoMenu } from "react-icons/io5";
+import { IoMenu, IoClose } from "react-icons/io5";
 import { TbBrandTinderFilled } from "react-icons/tb";
-import { IoClose } from "react-icons/io5";
 import { IoIosArrowDown } from "react-icons/io";
 import { useState, useRef, useEffect } from "react";
 
@@ -22,6 +21,7 @@ function    NavBar()
         window.addEventListener("resize", handleResize);
         return () => window.removeEventListener("resize", handleResize);
       }, [open]);
+
     return(
         <>
         <div className='fixed flex w-[100%] z-[1] p-4'>
@@ -39,7 +39,7 @@ function    NavBar()
 
             {/* start middle part of navbar */}
             <div className='justify-around cursor-pointer items-center  text-white font-bold underline underline-offset-[6px] gap-3 lg:gap-5 960:flex hidden ml-5 text-lg lg:text-xl 2300:w-[25%] w-[650px]'>
-                <div className="shadow-hover  hover:bg-white hover:text-black px-2.5 py-1 lg:px-3.5 lg:py-1.5 rounded-3xl">Products</div>
+                <div className="shadow-hover  hover:bg-white hover:text-black px-2.5 py-1 lg:px-3.5 lg:py-1.5 rounded-3xl" >Products</div>
                 <div className="shadow-hover  hover:bg-white hover:text-black px-2.5 py-1 lg:px-3.5 lg:py-1.5 rounded-3xl">Learn</div>
                 <div className="shadow-hover  hover:bg-white hover:text-black px-2.5 py-1 lg:px-3.5 lg:py-1.5 rounded-3xl">Safety</div>
                 <div className="shadow-hover  hover:bg-white hover:text-black px-2.5 py-1 lg:px-3.5 lg:py-1.5 rounded-3xl">Support</div>

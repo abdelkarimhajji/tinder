@@ -36,7 +36,7 @@ module.exports = {
       backgroundImage:{
         'wel-gradient': 'linear-gradient(to top, #f67848, #ff5864 50%, #fe2a7b 100%)',
         'wel-gradient-but': 'linear-gradient(to right, #f67848, #ff5864 50%, #fe2a7b 100%)',
-        'welcome': "linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/src/assets/images/backgroundWelcome.jpeg')",
+        'welcome': "linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/src/assets/images/backgroundWelcome.webp')",
       }
     },
   },
