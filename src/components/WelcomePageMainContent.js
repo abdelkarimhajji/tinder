@@ -1,4 +1,5 @@
-import Poupap from "../components/WelcomePagePoupap.js"
+import PoupapType from "./WelcomePagePoupapType.js"
+import PoupapPhone from "./WelcomePagePoupapPhone.js"
 import { useState } from "react"
 
 function MainContent()
@@ -15,7 +16,7 @@ function MainContent()
                 Create account
             </div>
             <div className="w-[100%] h-[250px]  absolute bottom-0  flex-col 960:hidden flex  items-center">
-                <div className="w-[80%] h-12 hover:text-gray-300 text-white font-bold text-xl  cursor-pointer flex justify-center items-center bg-black rounded-3xl mb-5">
+                <div className="w-[80%] h-12 hover:text-gray-300 text-white font-bold text-xl  cursor-pointer flex justify-center items-center bg-black rounded-3xl mb-5" onClick={() => setDisplay(!display)}>
                     Create account
                 </div>
                 <div className="w-[80%] h-12  text-white font-bold text-xl hover:text-gray-300 cursor-pointer border-2 border-white flex justify-center items-center bg-transparent rounded-3xl mb-5">
@@ -23,7 +24,8 @@ function MainContent()
                 </div>
             </div> 
         </div>
-         <Poupap display={display} setDisplay={setDisplay}/> 
+        <PoupapType display={display} setDisplay={setDisplay}/>
+        <PoupapPhone />
         </>
     );
 }

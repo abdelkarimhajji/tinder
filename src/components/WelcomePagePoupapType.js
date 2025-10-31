@@ -3,11 +3,11 @@
     import { FaFacebook, FaPhoneAlt } from "react-icons/fa";
     import { IoClose } from "react-icons/io5";
 
-    function    Poupap({display, setDisplay})
+    function    PoupapType({display, setDisplay})
     {
         return (
             <div className={`fixed ${display ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"} transition-all duration-500 flex flex-col justify-center items-center z-[2] w-[100%] h-screen bg-black/50`}>
-                <div className={`w-[450px] h-[500px] ${display ? "scale-100 opacity-100" : "scale-0 opacity-0"} transition-all transform duration-200 bg-white opacity-none text-black rounded-lg flex flex-col items-center jsutify-center`}>
+                <div className={`960:w-[450px] 960:h-[500px] w-[100%] h-screen ${display ? "scale-100 opacity-100" : "scale-0 opacity-0"} transition-all transform duration-200 bg-white opacity-none text-black 960:rounded-lg flex flex-col items-center jsutify-center `}>
                     <div className="w-[100%] flex justify-end px-4 py-2 pt-4">
                         <IoClose className="text-4xl text-gray-400 cursor-pointer hover:text-gray-300 transition duration-200" onClick={() => setDisplay(!display)}/> 
                     </div>
@@ -24,7 +24,7 @@
                         </p>
                     </div>
 
-                    <div className="w-[100%]  flex justify-center items-center flex-col">
+                    <div className="960:w-[100%] w-[450px] flex justify-center items-center flex-col absolute bottom-32 960:static  ">
                         {/* start button of goole conection */}
                         <div className="w-[80%] flex bg-blue-600 mb-4 text-white rounded-3xl px-0 py-1 cursor-pointer hover:bg-blue-400 transition-colors duration-150">
                             <div className="w-[12%]  flex justify-start pl-1">
@@ -61,21 +61,23 @@
                                 <FaPhoneAlt />
                             </div>
                             <div className="font-bold">
-                                <p className="ml-2">Log in with Facebook</p>
+                                <p className="ml-2">Log in with Phone Number</p>
                             </div>
                         </div>
                         {/* end button number */}
+
+                        {/* start link of trouble loggin */}
+                            <div className="w-[100%] flex flex-col items-center justify-center">
+                                <p className="font-semibold text-blue-700 text-sm underline decoration-[1.5px] cursor-pointer hover:no-underline">Trouble Loggin In?</p>
+                            </div>
+                        {/* end link of trouble loggin  */}
                     </div>
 
-                    {/* start link of trouble loggin */}
-                    <div className="w-[100%] flex flex-col items-center justify-center">
-                        <p className="font-semibold text-blue-700 text-sm underline decoration-[1.5px] cursor-pointer hover:no-underline">Trouble Loggin In?</p>
-                    </div>
-                    {/* end link of trouble loggin  */}
+                    
 
                 </div>
             </div>
         );
     }
 
-    export default Poupap
+    export default PoupapType
